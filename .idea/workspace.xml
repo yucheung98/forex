@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d58c0ab-4e26-4030-b002-d86356395f41" name="Default Changelist" comment="" />
+    <list default="true" id="0d58c0ab-4e26-4030-b002-d86356395f41" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/copy_rates_from.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/copy_rates_from_pos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/symbols.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZWEv3kqlOQY5ylf9YpgOvT5jS2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="E:/envs/forex/Scripts" />
   </component>
@@ -82,10 +96,31 @@
       <workItem from="1585011330612" duration="1180000" />
       <workItem from="1585362666904" duration="6781000" />
       <workItem from="1585451152853" duration="14449000" />
+      <workItem from="1585532865181" duration="5001000" />
+      <workItem from="1585616444009" duration="5752000" />
+      <workItem from="1585623955733" duration="4150000" />
+      <workItem from="1585722370640" duration="11354000" />
+      <workItem from="1585750796638" duration="2206000" />
+      <workItem from="1585883184003" duration="13538000" />
+      <workItem from="1585920671610" duration="1673000" />
+      <workItem from="1585978216467" duration="14923000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

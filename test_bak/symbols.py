@@ -17,7 +17,7 @@ count = 0
 for s in symbols:
     count += 1
     print("{}. {}".format(count, s.name))
-    if count == 5: break
+    if count == 6: break
 print()
 
 # # get symbols containing RU in their names

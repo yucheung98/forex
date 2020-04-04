@@ -1,5 +1,6 @@
-from flask import Blueprint, render_template, jsonify, request
-from .. import connection, logger
+from flask import Blueprint, jsonify, request
+from .. import config, logger
+import pymysql
 
 login_blue_print = Blueprint('login_blue_print', __name__)
 
@@ -11,6 +12,8 @@ def login():
     res = {}
     res1 = {'status': 1, 'user_id': 'sa', 'user_role': 0}
     res2 = {'status': 0}
+    # Connect to the database
+    connection = pymysql.connect(**config)
     try:
         with connection.cursor() as cursor:
             sql = "SELECT * FROM user"
@@ -24,6 +27,7 @@ def login():
         connection.commit()
     finally:
         logger.info(res)
+        connection.close()
     return jsonify(res)
 
 
