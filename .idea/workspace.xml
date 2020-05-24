@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d58c0ab-4e26-4030-b002-d86356395f41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/copy_rates_from.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/copy_rates_from_pos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/quotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/app_bak.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/copy_rates_from_pos.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/graph_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_bak/symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/symbols.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,11 +36,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/envs/forex/Scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\projs\forex\test_bak" />
+      <recent name="E:\projs\forex" />
       <recent name="E:\projs\forex\app" />
     </key>
   </component>
@@ -104,6 +109,23 @@
       <workItem from="1585883184003" duration="13538000" />
       <workItem from="1585920671610" duration="1673000" />
       <workItem from="1585978216467" duration="14923000" />
+      <workItem from="1586058351666" duration="3539000" />
+      <workItem from="1586137047400" duration="3214000" />
+      <workItem from="1587798703943" duration="4413000" />
+      <workItem from="1587854939713" duration="1212000" />
+      <workItem from="1587951997060" duration="1496000" />
+      <workItem from="1588820276567" duration="681000" />
+      <workItem from="1588925205884" duration="1970000" />
+      <workItem from="1588933488455" duration="1860000" />
+      <workItem from="1588986711546" duration="1814000" />
+      <workItem from="1589262471335" duration="937000" />
+      <workItem from="1589437037532" duration="3747000" />
+      <workItem from="1589581389969" duration="2754000" />
+      <workItem from="1590023286226" duration="9757000" />
+      <workItem from="1590063850207" duration="922000" />
+      <workItem from="1590126064315" duration="655000" />
+      <workItem from="1590197695299" duration="11539000" />
+      <workItem from="1590287698820" duration="11315000" />
     </task>
     <servers />
   </component>

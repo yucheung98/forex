@@ -18,6 +18,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 symbols_main = ['EURUSD', 'USDJPY', 'GBPUSD', 'AUDUSD', 'USDCHF', 'USDCAD']
+symbols_list = ['EURUSD', 'GBPUSD', 'USDCHF', 'USDJPY', 'USDCNH', 'USDRUB', 'AUDUSD', 'NZDUSD', 'USDCAD', 'USDSEK', 'USDHKD', 'USDSGD',
+                'USDNOK', 'USDDKK', 'USDTRY', 'USDZAR', 'USDCZK', 'USDHUF', 'USDPLN', 'USDRUR', 'AUDCAD', 'AUDCHF', 'AUDJPY', 'AUDNZD',
+                'CADCHF', 'CADJPY', 'CHFJPY', 'EURAUD', 'EURCAD', 'EURCHF', 'EURCZK', 'EURDKK', 'EURGBP', 'EURHKD', 'EURHUF', 'EURJPY',
+                'EURNOK', 'EURNZD', 'EURPLN', 'EURRUR', 'EURRUB', 'EURSEK', 'EURTRY', 'EURZAR', 'GBPAUD', 'GBPCHF', 'GBPJPY', 'XAUUSD',
+                'XAGUSD', 'GBPCAD', 'GBPNOK', 'GBPNZD', 'GBPPLN', 'GBPSEK', 'GBPSGD', 'GBPZAR', 'NZDCAD', 'NZDCHF', 'NZDJPY', 'NZDSGD',
+                'SGDJPY', 'USDGEL', 'USDMXN', 'EURMXN', 'GBPMXN', 'CADMXN', 'CHFMXN', 'MXNJPY', 'NZDMXN', 'USDCOP', 'USDARS', 'USDCLP']
 
 def create_app():
     app = Flask(__name__)
@@ -29,5 +35,7 @@ def create_app():
     app.register_blueprint(quotations_blue_print)
     from .views.news import news_blue_print
     app.register_blueprint(news_blue_print)
+    from .views.predict import predict_blue_print
+    app.register_blueprint(predict_blue_print)
     return app
 
