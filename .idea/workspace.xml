@@ -3,15 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="0d58c0ab-4e26-4030-b002-d86356395f41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/news.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/quotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/quotations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/app_bak.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/copy_rates_from_pos.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/graph_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/symbols.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/symbols.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/predict.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/.ipynb_checkpoints/prediction-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/.ipynb_checkpoints/prediction-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/EURUSD_pre_model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/predict_get_data - CADEUR.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/predict_get_data - USDCAD.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/prediction - CADEUR.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/prediction - USDCAD.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_bak/prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/prediction.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +125,8 @@
       <workItem from="1590063850207" duration="922000" />
       <workItem from="1590126064315" duration="655000" />
       <workItem from="1590197695299" duration="11539000" />
-      <workItem from="1590287698820" duration="11315000" />
+      <workItem from="1590287698820" duration="12755000" />
+      <workItem from="1590370939363" duration="13007000" />
     </task>
     <servers />
   </component>
