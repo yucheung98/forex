@@ -148,6 +148,13 @@ def delete_news_comment():
         with connection.cursor() as cursor:
             sql = "DELETE FROM news_comments WHERE id = %s"
             cursor.execute(sql, id)
+            sql2 = "SELECT * FROM `news_comments` WHERE news_id = %s"
+            cursor.execute(sql2, news_id)
+            comments_count = len(cursor.fetchall())
+            sql3 = "UPDATE `news` SET comments_count = %s  WHERE news_id = %s"
+            cursor.execute(sql3, (comments_count, news_id))
+            sql4 = "UPDATE `news_focus` SET comments_count = %s  WHERE news_id = %s"
+            cursor.execute(sql4, (comments_count, news_id))
             res = res1
         connection.commit()
     finally:
@@ -169,6 +176,13 @@ def insert_news_comment():
         with connection.cursor() as cursor:
             sql = "INSERT INTO `news_comments` (`news_id`, `user_name`, `time`, `comment` ) VALUES (%s, %s, %s, %s)"
             cursor.execute(sql, (news_id, user_name, now_time, comment))
+            sql2 = "SELECT * FROM `news_comments` WHERE news_id = %s"
+            cursor.execute(sql2, news_id)
+            comments_count = len(cursor.fetchall())
+            sql3 = "UPDATE `news` SET comments_count = %s  WHERE news_id = %s"
+            cursor.execute(sql3, (comments_count, news_id))
+            sql4 = "UPDATE `news_focus` SET comments_count = %s  WHERE news_id = %s"
+            cursor.execute(sql4, (comments_count, news_id))
             res = {'status': 1}
         connection.commit()
     finally:

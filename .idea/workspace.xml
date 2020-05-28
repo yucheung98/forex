@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0d58c0ab-4e26-4030-b002-d86356395f41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/predict.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/predict.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/.ipynb_checkpoints/prediction-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/.ipynb_checkpoints/prediction-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/EURUSD_pre_model.h5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/predict_get_data - CADEUR.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/predict_get_data - USDCAD.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/prediction - CADEUR.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/prediction - USDCAD.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_bak/prediction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/test_bak/prediction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/news.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/news.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,6 +119,10 @@
       <workItem from="1590197695299" duration="11539000" />
       <workItem from="1590287698820" duration="12755000" />
       <workItem from="1590370939363" duration="13007000" />
+      <workItem from="1590420788840" duration="839000" />
+      <workItem from="1590455162121" duration="1254000" />
+      <workItem from="1590476524830" duration="3191000" />
+      <workItem from="1590534368208" duration="1692000" />
     </task>
     <servers />
   </component>
